@@ -1,0 +1,86 @@
+﻿  Compiling CUDA source file src\ImageEdit.cu...
+  
+  C:\Users\MILLIONAIRE\Desktop\BestWorkingVersion__>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.8\bin\nvcc.exe" -gencode=arch=compute_52,code=\"sm_52,compute_52\" --use-local-env -ccbin "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\bin\HostX64\x64" -x cu   -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.8\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.8\include"  -G   --keep-dir Project1\x64\Debug  -maxrregcount=0    --machine 64 --compile -cudart static  -g  -D_DEBUG -D_WINDOWS -D_UNICODE -DUNICODE -Xcompiler "/EHsc /W3 /nologo /Od /FS /Zi /RTC1 /MDd " -Xcompiler "/FdProject1\x64\Debug\vc143.pdb" -o C:\Users\MILLIONAIRE\Desktop\BestWorkingVersion__\Project1\x64\Debug\ImageEdit.cu.obj "C:\Users\MILLIONAIRE\Desktop\BestWorkingVersion__\src\ImageEdit.cu" 
+C:\Users\MILLIONAIRE\Desktop\BestWorkingVersion__\src\../include/ImageEdit.h(13): warning C4005: 'M_PI': macro redefinition
+C:\Users\MILLIONAIRE\Desktop\BestWorkingVersion__\src\ImageEdit.cu(410): warning #461-D: initial value of reference to non-const must be an lvalue
+                float tri1Area = Area(point(xcord, ycord), regoinPoints[0], regoinPoints[1]);
+                                      ^
+  
+  Remark: The warnings can be suppressed with "-diag-suppress <warning-number>"
+  
+C:\Users\MILLIONAIRE\Desktop\BestWorkingVersion__\src\ImageEdit.cu(411): warning #461-D: initial value of reference to non-const must be an lvalue
+                float tri2Area = Area(point(xcord, ycord), regoinPoints[1], regoinPoints[2]);
+                                      ^
+  
+C:\Users\MILLIONAIRE\Desktop\BestWorkingVersion__\src\ImageEdit.cu(412): warning #461-D: initial value of reference to non-const must be an lvalue
+                float tri3Area = Area(point(xcord, ycord), regoinPoints[2], regoinPoints[3]);
+                                      ^
+  
+C:\Users\MILLIONAIRE\Desktop\BestWorkingVersion__\src\ImageEdit.cu(413): warning #461-D: initial value of reference to non-const must be an lvalue
+                float tri4Area = Area(point(xcord, ycord), regoinPoints[0], regoinPoints[3]);
+                                      ^
+  
+C:\Users\MILLIONAIRE\Desktop\BestWorkingVersion__\src\../include/ImageEdit.h(13): warning C4005: 'M_PI': macro redefinition
+  crt/device_functions.h is an internal header file and must not be used directly.  Please use cuda_runtime_api.h or cuda_runtime.h instead.
+C:\Users\MILLIONAIRE\Desktop\BestWorkingVersion__\src\ImageEdit.cu(33): warning #177-D: variable "kEpsilon" was declared but never referenced
+        constexpr float kEpsilon = 1e-6f;
+                        ^
+  
+  Remark: The warnings can be suppressed with "-diag-suppress <warning-number>"
+  
+C:\Users\MILLIONAIRE\Desktop\BestWorkingVersion__\src\ImageEdit.cu(39): warning #177-D: variable "kGammaThreshold" was declared but never referenced
+        constexpr float kGammaThreshold = 0.04045f;
+                        ^
+  
+C:\Users\MILLIONAIRE\Desktop\BestWorkingVersion__\src\ImageEdit.cu(40): warning #177-D: variable "kGammaDivisor" was declared but never referenced
+        constexpr float kGammaDivisor = 12.92f;
+                        ^
+  
+C:\Users\MILLIONAIRE\Desktop\BestWorkingVersion__\src\ImageEdit.cu(41): warning #177-D: variable "kGammaPower" was declared but never referenced
+        constexpr float kGammaPower = 2.4f;
+                        ^
+  
+C:\Users\MILLIONAIRE\Desktop\BestWorkingVersion__\src\ImageEdit.cu(336): warning #177-D: variable "index" was declared but never referenced
+        int index = 0;
+            ^
+  
+C:\Users\MILLIONAIRE\Desktop\BestWorkingVersion__\src\ImageEdit.cu(410): warning #461-D: initial value of reference to non-const must be an lvalue
+                float tri1Area = Area(point(xcord, ycord), regoinPoints[0], regoinPoints[1]);
+                                      ^
+  
+C:\Users\MILLIONAIRE\Desktop\BestWorkingVersion__\src\ImageEdit.cu(411): warning #461-D: initial value of reference to non-const must be an lvalue
+                float tri2Area = Area(point(xcord, ycord), regoinPoints[1], regoinPoints[2]);
+                                      ^
+  
+C:\Users\MILLIONAIRE\Desktop\BestWorkingVersion__\src\ImageEdit.cu(412): warning #461-D: initial value of reference to non-const must be an lvalue
+                float tri3Area = Area(point(xcord, ycord), regoinPoints[2], regoinPoints[3]);
+                                      ^
+  
+C:\Users\MILLIONAIRE\Desktop\BestWorkingVersion__\src\ImageEdit.cu(413): warning #461-D: initial value of reference to non-const must be an lvalue
+                float tri4Area = Area(point(xcord, ycord), regoinPoints[0], regoinPoints[3]);
+                                      ^
+  
+CUDACOMPILE : nvcc warning : Support for offline compilation for architectures prior to '<compute/sm/lto>_75' will be removed in a future release (Use -Wno-deprecated-gpu-targets to suppress warning).
+  ImageEdit.cu
+  tmpxft_00005a2c_00000000-7_ImageEdit.cudafe1.cpp
+C:\Users\MILLIONAIRE\Desktop\BestWorkingVersion__\include\model.h(70): warning C4244: 'argument': conversion from 'INT32' to 'float', possible loss of data
+  crt/device_functions.h is an internal header file and must not be used directly.  Please use cuda_runtime_api.h or cuda_runtime.h instead.
+C:\Users\MILLIONAIRE\Desktop\BestWorkingVersion__\src\ImageEdit.cu(21): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\MILLIONAIRE\Desktop\BestWorkingVersion__\src\ImageEdit.cu(82): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\MILLIONAIRE\Desktop\BestWorkingVersion__\src\ImageEdit.cu(83): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\MILLIONAIRE\Desktop\BestWorkingVersion__\src\ImageEdit.cu(84): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\MILLIONAIRE\Desktop\BestWorkingVersion__\src\ImageEdit.cu(526): warning C4244: 'argument': conversion from 'float' to 'const INT32', possible loss of data
+C:\Users\MILLIONAIRE\Desktop\BestWorkingVersion__\src\ImageEdit.cu(526): warning C4244: 'argument': conversion from 'float' to 'const INT32', possible loss of data
+C:\Users\MILLIONAIRE\Desktop\BestWorkingVersion__\src\ImageEdit.cu(529): warning C4244: 'argument': conversion from 'float' to 'const INT32', possible loss of data
+C:\Users\MILLIONAIRE\Desktop\BestWorkingVersion__\src\ImageEdit.cu(529): warning C4244: 'argument': conversion from 'float' to 'const INT32', possible loss of data
+C:\Users\MILLIONAIRE\Desktop\BestWorkingVersion__\src\ImageEdit.cu(530): warning C4244: 'argument': conversion from 'float' to 'const INT32', possible loss of data
+C:\Users\MILLIONAIRE\Desktop\BestWorkingVersion__\src\ImageEdit.cu(530): warning C4244: 'argument': conversion from 'float' to 'const INT32', possible loss of data
+C:\Users\MILLIONAIRE\Desktop\BestWorkingVersion__\src\ImageEdit.cu(531): warning C4244: 'argument': conversion from 'float' to 'const INT32', possible loss of data
+C:\Users\MILLIONAIRE\Desktop\BestWorkingVersion__\src\ImageEdit.cu(531): warning C4244: 'argument': conversion from 'float' to 'const INT32', possible loss of data
+C:\Users\MILLIONAIRE\Desktop\BestWorkingVersion__\src\ImageEdit.cu(532): warning C4244: 'argument': conversion from 'float' to 'const INT32', possible loss of data
+C:\Users\MILLIONAIRE\Desktop\BestWorkingVersion__\src\ImageEdit.cu(532): warning C4244: 'argument': conversion from 'float' to 'const INT32', possible loss of data
+C:\Users\MILLIONAIRE\Desktop\BestWorkingVersion__\src\ImageEdit.cu(533): warning C4244: 'argument': conversion from 'float' to 'const INT32', possible loss of data
+C:\Users\MILLIONAIRE\Desktop\BestWorkingVersion__\src\ImageEdit.cu(533): warning C4244: 'argument': conversion from 'float' to 'const INT32', possible loss of data
+C:\Users\MILLIONAIRE\Desktop\BestWorkingVersion__\src\ImageEdit.cu(534): warning C4244: 'argument': conversion from 'float' to 'const INT32', possible loss of data
+C:\Users\MILLIONAIRE\Desktop\BestWorkingVersion__\src\ImageEdit.cu(534): warning C4244: 'argument': conversion from 'float' to 'const INT32', possible loss of data
+  Project1.vcxproj -> C:\Users\MILLIONAIRE\Desktop\BestWorkingVersion__\x64\Debug\Project1.exe
