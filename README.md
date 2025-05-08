@@ -1,4 +1,4 @@
-Real-Time Object Tracking (Graduation Project)
+#Real-Time Object Tracking (Graduation Project)
 Description
 A real-time object tracking system developed using C++ and CUDA to achieve high-performance tracking of objects in video frames. This system uses the CIELUV color space for robust color-based object detection under varying lighting conditions. It leverages CUDA for parallelizing image processing tasks, providing real-time tracking even for high-resolution videos.
 
