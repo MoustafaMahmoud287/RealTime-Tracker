@@ -16,10 +16,6 @@ A real-time object tracking system developed using **C++** and **CUDA** to achie
 - 🚀 CUDA acceleration for GPU-parallel image processing
 - 🖼️ High performance on high-resolution video frames
 
-## Demo
-<img src="demo.gif" alt="Real-Time Tracking Demo" width="600" />
-
-> To add your own demo: record your program in action, save as `demo.gif`, and place it in the repo root.
 
 ## Installation
 
